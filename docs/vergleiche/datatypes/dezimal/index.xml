@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dezimal</title>
-    <link>https://example.org/vergleiche/datatypes/dezimal/index.html</link>
+    <link>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/dezimal/index.html</link>
     <description>Dezimal-Datentypen SQL Server PostgreSQL DECIMAL (-10^38 + 1 bis zu 10^38 - 1) decimal NUMERIC (-10^38 + 1 bis zu 10^38 - 1) numeric</description>
     <generator>Hugo</generator>
     <language>de-de</language>
-    <atom:link href="https://example.org/vergleiche/datatypes/dezimal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/dezimal/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

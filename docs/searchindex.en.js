@@ -5,7 +5,7 @@ var relearn_searchindex = [
     "description": "This is a new chapter.",
     "tags": [],
     "title": "Vergleiche",
-    "uri": "/vergleiche/index.html"
+    "uri": "/Journey2PostgreSQL/vergleiche/index.html"
   },
   {
     "breadcrumb": "Vergleiche",
@@ -13,7 +13,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Datentypen",
-    "uri": "/vergleiche/datatypes/index.html"
+    "uri": "/Journey2PostgreSQL/vergleiche/datatypes/index.html"
   },
   {
     "breadcrumb": "Vergleiche",
@@ -21,7 +21,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Funktionen",
-    "uri": "/vergleiche/functions/index.html"
+    "uri": "/Journey2PostgreSQL/vergleiche/functions/index.html"
   },
   {
     "breadcrumb": "Vergleiche \u003e Datentypen",
@@ -29,7 +29,7 @@ var relearn_searchindex = [
     "description": "BIT-Datentypen SQL Server PostgreSQL BIT (1 Byte) boolean",
     "tags": [],
     "title": "Bit",
-    "uri": "/vergleiche/datatypes/bit/index.html"
+    "uri": "/Journey2PostgreSQL/vergleiche/datatypes/bit/index.html"
   },
   {
     "breadcrumb": "",
@@ -37,7 +37,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Categories",
-    "uri": "/categories/index.html"
+    "uri": "/Journey2PostgreSQL/categories/index.html"
   },
   {
     "breadcrumb": "Vergleiche \u003e Datentypen",
@@ -45,7 +45,7 @@ var relearn_searchindex = [
     "description": "Dezimal-Datentypen SQL Server PostgreSQL DECIMAL (-10^38 + 1 bis zu 10^38 - 1) decimal NUMERIC (-10^38 + 1 bis zu 10^38 - 1) numeric",
     "tags": [],
     "title": "Dezimal",
-    "uri": "/vergleiche/datatypes/dezimal/index.html"
+    "uri": "/Journey2PostgreSQL/vergleiche/datatypes/dezimal/index.html"
   },
   {
     "breadcrumb": "Vergleiche \u003e Datentypen",
@@ -53,7 +53,7 @@ var relearn_searchindex = [
     "description": "Ganzzahlige Datentypen SQL Server PostgreSQL TINYINT (0 bis 255, 1 Byte) kein Pendant SMALLINT (-32.768 bis 32.767, 2 Byte) smallint INT (-2.147.483.648 bis 2.147.483.647, 4 Byte) integer BIGINT (-9.223.372.036.854.775.808 bis 9.223.372.036.854.775.807, 8 Byte) bigint",
     "tags": [],
     "title": "Ganzzahl",
-    "uri": "/vergleiche/datatypes/ganzzahl/index.html"
+    "uri": "/Journey2PostgreSQL/vergleiche/datatypes/ganzzahl/index.html"
   },
   {
     "breadcrumb": "Vergleiche \u003e Datentypen",
@@ -61,7 +61,7 @@ var relearn_searchindex = [
     "description": "Gleitkomma-Datentypen SQL Server PostgreSQL FLOAT double precision REAL real",
     "tags": [],
     "title": "Gleitkomma",
-    "uri": "/vergleiche/datatypes/gleitkomma/index.html"
+    "uri": "/Journey2PostgreSQL/vergleiche/datatypes/gleitkomma/index.html"
   },
   {
     "breadcrumb": "Vergleiche \u003e Datentypen",
@@ -69,7 +69,7 @@ var relearn_searchindex = [
     "description": "GUID-Datentypen SQL Server PostgreSQL uniqueidentifier (16 Bytes) uuid",
     "tags": [],
     "title": "Guid",
-    "uri": "/vergleiche/datatypes/guid/index.html"
+    "uri": "/Journey2PostgreSQL/vergleiche/datatypes/guid/index.html"
   },
   {
     "breadcrumb": "Vergleiche \u003e Datentypen",
@@ -77,7 +77,7 @@ var relearn_searchindex = [
     "description": "Money-Datentypen SQL Server PostgreSQL SMALLMONEY (-214.748,3648 bis 214.748,3647, 4 Bytes) kein Pendant MONEY (-922.337.203.685.477,5808 bis 922.337.203.685.477,5807, 8 Bytes) money",
     "tags": [],
     "title": "Money",
-    "uri": "/vergleiche/datatypes/money/index.html"
+    "uri": "/Journey2PostgreSQL/vergleiche/datatypes/money/index.html"
   },
   {
     "breadcrumb": "",
@@ -85,7 +85,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "Tags",
-    "uri": "/tags/index.html"
+    "uri": "/Journey2PostgreSQL/tags/index.html"
   },
   {
     "breadcrumb": "Vergleiche \u003e Datentypen",
@@ -93,6 +93,6 @@ var relearn_searchindex = [
     "description": "Zeichenketten-Datentypen SQL Server PostgreSQL char(n) (n muss zwischen 1 und 8000 liegen) character(n), char(n) varchar(n) (n muss zwischen 1 und 8000 liegen) character varying(n), char varying(n) varchar(max) (2GB) text nchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character(n), char(n) nvarchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character varying(n), char varying(n) nvarchar(max) (2GB) text",
     "tags": [],
     "title": "Zeichenketten",
-    "uri": "/vergleiche/datatypes/zeichenketten/index.html"
+    "uri": "/Journey2PostgreSQL/vergleiche/datatypes/zeichenketten/index.html"
   }
 ]

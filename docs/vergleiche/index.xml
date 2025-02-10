@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vergleiche</title>
-    <link>https://example.org/vergleiche/index.html</link>
+    <link>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/index.html</link>
     <description>This is a new chapter.</description>
     <generator>Hugo</generator>
     <language>de-de</language>
     <lastBuildDate>Mon, 10 Feb 2025 16:32:37 +0100</lastBuildDate>
-    <atom:link href="https://example.org/vergleiche/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Datentypen</title>
-      <link>https://example.org/vergleiche/datatypes/index.html</link>
+      <link>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/index.html</link>
       <pubDate>Mon, 10 Feb 2025 11:05:32 +0100</pubDate>
-      <guid>https://example.org/vergleiche/datatypes/index.html</guid>
+      <guid>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/index.html</guid>
       <description></description>
     </item>
     <item>
       <title>Funktionen</title>
-      <link>https://example.org/vergleiche/functions/index.html</link>
+      <link>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/functions/index.html</link>
       <pubDate>Mon, 10 Feb 2025 16:32:37 +0100</pubDate>
-      <guid>https://example.org/vergleiche/functions/index.html</guid>
+      <guid>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/functions/index.html</guid>
       <description></description>
     </item>
   </channel>

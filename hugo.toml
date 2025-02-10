@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://chrgraefe.github.io/Journey2PostgreSQL/'
 languageCode = 'de-de'
 title = ''
 theme = 'hugo-theme-relearn'

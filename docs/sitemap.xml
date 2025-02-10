@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/vergleiche/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/index.html</loc>
     <lastmod>2025-02-10T16:32:37+01:00</lastmod>
   </url>
   <url>
-    <loc>https://example.org/vergleiche/datatypes/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/index.html</loc>
     <lastmod>2025-02-10T11:05:32+01:00</lastmod>
   </url>
   <url>
-    <loc>https://example.org/vergleiche/functions/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/functions/index.html</loc>
     <lastmod>2025-02-10T16:32:37+01:00</lastmod>
   </url>
   <url>
-    <loc>https://example.org/vergleiche/datatypes/bit/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/bit/index.html</loc>
   </url>
   <url>
-    <loc>https://example.org/categories/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/categories/index.html</loc>
   </url>
   <url>
-    <loc>https://example.org/vergleiche/datatypes/dezimal/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/dezimal/index.html</loc>
   </url>
   <url>
-    <loc>https://example.org/vergleiche/datatypes/ganzzahl/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/ganzzahl/index.html</loc>
   </url>
   <url>
-    <loc>https://example.org/vergleiche/datatypes/gleitkomma/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/gleitkomma/index.html</loc>
   </url>
   <url>
-    <loc>https://example.org/vergleiche/datatypes/guid/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/guid/index.html</loc>
   </url>
   <url>
-    <loc>https://example.org/vergleiche/datatypes/money/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/money/index.html</loc>
   </url>
   <url>
-    <loc>https://example.org/tags/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/tags/index.html</loc>
   </url>
   <url>
-    <loc>https://example.org/vergleiche/datatypes/zeichenketten/index.html</loc>
+    <loc>https://chrgraefe.github.io/Journey2PostgreSQL/vergleiche/datatypes/zeichenketten/index.html</loc>
   </url>
 </urlset>
