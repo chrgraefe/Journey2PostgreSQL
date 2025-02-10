@@ -20,7 +20,7 @@ var relearn_searchindex = [
     "content": "Comparions of data type",
     "description": "Comparions of data type",
     "tags": [],
-    "title": "Comparison of data types",
+    "title": "Data Types",
     "uri": "/first-chapter/first-page/index.html"
   },
   {
