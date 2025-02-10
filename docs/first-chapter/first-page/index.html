@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="de-de" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.143.1">
     <meta name="generator" content="Relearn 7.3.2">
-    <meta name="description" content="Comparions of data type">
+    <meta name="description" content="Ganzzahlige Datentypen SQL Server PostgreSQL TINYINT (0 bis 255, 1 Byte) kein Pendant SMALLINT (-32.768 bis 32.767, 2 Byte) smallint INT (-2.147.483.648 bis 2.147.483.647, 4 Byte) integer BIGINT (-9.223.372.036.854.775.808 bis 9.223.372.036.854.775.807, 8 Byte) bigint Dezimal-Datentypen SQL Server PostgreSQL DECIMAL (-10^38 &#43; 1 bis zu 10^38 - 1) decimal NUMERIC (-10^38 &#43; 1 bis zu 10^38 - 1) numeric Gleitkomma-Datentypen SQL Server PostgreSQL FLOAT double precision REAL real Money-Datentypen SQL Server PostgreSQL SMALLMONEY (-214.748,3648 bis 214.748,3647, 4 Bytes) kein Pendant MONEY (-922.337.203.685.477,5808 bis 922.337.203.685.477,5807, 8 Bytes) money BIT-Datentypen SQL Server PostgreSQL BIT (1 Byte) boolean GUID-Datentypen SQL Server PostgreSQL uniqueidentifier (16 Bytes) uuid Zeichenketten-Datentypen SQL Server PostgreSQL char(n) (n muss zwischen 1 und 8000 liegen) character(n), char(n) varchar(n) (n muss zwischen 1 und 8000 liegen) character varying(n), char varying(n) varchar(max) (2GB) text nchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character(n), char(n) nvarchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character varying(n), char varying(n) nvarchar(max) (2GB) text">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Data Types :: Comparing SQL Server with PostgreSQL in different ways">
-    <meta name="twitter:description" content="Comparions of data type">
-    <meta property="og:url" content="https://example.org/first-chapter/first-page/index.html">
+    <meta name="twitter:title" content="Datentypen :: Comparing SQL Server with PostgreSQL in different ways">
+    <meta name="twitter:description" content="Ganzzahlige Datentypen SQL Server PostgreSQL TINYINT (0 bis 255, 1 Byte) kein Pendant SMALLINT (-32.768 bis 32.767, 2 Byte) smallint INT (-2.147.483.648 bis 2.147.483.647, 4 Byte) integer BIGINT (-9.223.372.036.854.775.808 bis 9.223.372.036.854.775.807, 8 Byte) bigint Dezimal-Datentypen SQL Server PostgreSQL DECIMAL (-10^38 &#43; 1 bis zu 10^38 - 1) decimal NUMERIC (-10^38 &#43; 1 bis zu 10^38 - 1) numeric Gleitkomma-Datentypen SQL Server PostgreSQL FLOAT double precision REAL real Money-Datentypen SQL Server PostgreSQL SMALLMONEY (-214.748,3648 bis 214.748,3647, 4 Bytes) kein Pendant MONEY (-922.337.203.685.477,5808 bis 922.337.203.685.477,5807, 8 Bytes) money BIT-Datentypen SQL Server PostgreSQL BIT (1 Byte) boolean GUID-Datentypen SQL Server PostgreSQL uniqueidentifier (16 Bytes) uuid Zeichenketten-Datentypen SQL Server PostgreSQL char(n) (n muss zwischen 1 und 8000 liegen) character(n), char(n) varchar(n) (n muss zwischen 1 und 8000 liegen) character varying(n), char varying(n) varchar(max) (2GB) text nchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character(n), char(n) nvarchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character varying(n), char varying(n) nvarchar(max) (2GB) text">
+    <meta property="og:url" content="http://localhost:1313/first-chapter/first-page/index.html">
     <meta property="og:site_name" content="Comparing SQL Server with PostgreSQL in different ways">
-    <meta property="og:title" content="Data Types :: Comparing SQL Server with PostgreSQL in different ways">
-    <meta property="og:description" content="Comparions of data type">
+    <meta property="og:title" content="Datentypen :: Comparing SQL Server with PostgreSQL in different ways">
+    <meta property="og:description" content="Ganzzahlige Datentypen SQL Server PostgreSQL TINYINT (0 bis 255, 1 Byte) kein Pendant SMALLINT (-32.768 bis 32.767, 2 Byte) smallint INT (-2.147.483.648 bis 2.147.483.647, 4 Byte) integer BIGINT (-9.223.372.036.854.775.808 bis 9.223.372.036.854.775.807, 8 Byte) bigint Dezimal-Datentypen SQL Server PostgreSQL DECIMAL (-10^38 &#43; 1 bis zu 10^38 - 1) decimal NUMERIC (-10^38 &#43; 1 bis zu 10^38 - 1) numeric Gleitkomma-Datentypen SQL Server PostgreSQL FLOAT double precision REAL real Money-Datentypen SQL Server PostgreSQL SMALLMONEY (-214.748,3648 bis 214.748,3647, 4 Bytes) kein Pendant MONEY (-922.337.203.685.477,5808 bis 922.337.203.685.477,5807, 8 Bytes) money BIT-Datentypen SQL Server PostgreSQL BIT (1 Byte) boolean GUID-Datentypen SQL Server PostgreSQL uniqueidentifier (16 Bytes) uuid Zeichenketten-Datentypen SQL Server PostgreSQL char(n) (n muss zwischen 1 und 8000 liegen) character(n), char(n) varchar(n) (n muss zwischen 1 und 8000 liegen) character varying(n), char varying(n) varchar(max) (2GB) text nchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character(n), char(n) nvarchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character varying(n), char varying(n) nvarchar(max) (2GB) text">
     <meta property="og:locale" content="de_de">
     <meta property="og:type" content="website">
-    <meta itemprop="name" content="Data Types :: Comparing SQL Server with PostgreSQL in different ways">
-    <meta itemprop="description" content="Comparions of data type">
+    <meta itemprop="name" content="Datentypen :: Comparing SQL Server with PostgreSQL in different ways">
+    <meta itemprop="description" content="Ganzzahlige Datentypen SQL Server PostgreSQL TINYINT (0 bis 255, 1 Byte) kein Pendant SMALLINT (-32.768 bis 32.767, 2 Byte) smallint INT (-2.147.483.648 bis 2.147.483.647, 4 Byte) integer BIGINT (-9.223.372.036.854.775.808 bis 9.223.372.036.854.775.807, 8 Byte) bigint Dezimal-Datentypen SQL Server PostgreSQL DECIMAL (-10^38 &#43; 1 bis zu 10^38 - 1) decimal NUMERIC (-10^38 &#43; 1 bis zu 10^38 - 1) numeric Gleitkomma-Datentypen SQL Server PostgreSQL FLOAT double precision REAL real Money-Datentypen SQL Server PostgreSQL SMALLMONEY (-214.748,3648 bis 214.748,3647, 4 Bytes) kein Pendant MONEY (-922.337.203.685.477,5808 bis 922.337.203.685.477,5807, 8 Bytes) money BIT-Datentypen SQL Server PostgreSQL BIT (1 Byte) boolean GUID-Datentypen SQL Server PostgreSQL uniqueidentifier (16 Bytes) uuid Zeichenketten-Datentypen SQL Server PostgreSQL char(n) (n muss zwischen 1 und 8000 liegen) character(n), char(n) varchar(n) (n muss zwischen 1 und 8000 liegen) character varying(n), char varying(n) varchar(max) (2GB) text nchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character(n), char(n) nvarchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character varying(n), char varying(n) nvarchar(max) (2GB) text">
     <meta itemprop="datePublished" content="2025-02-10T11:05:32+01:00">
     <meta itemprop="dateModified" content="2025-02-10T11:05:32+01:00">
-    <meta itemprop="wordCount" content="4">
-    <title>Data Types :: Comparing SQL Server with PostgreSQL in different ways</title>
-    <link href="/first-chapter/first-page/index.xml" rel="alternate" type="application/rss+xml" title="Data Types :: Comparing SQL Server with PostgreSQL in different ways">
-    <link href="/css/fontawesome-all.min.css?1739184080" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1739184080" rel="stylesheet"></noscript>
-    <link href="/css/auto-complete.css?1739184080" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1739184080" rel="stylesheet"></noscript>
-    <link href="/css/perfect-scrollbar.min.css?1739184080" rel="stylesheet">
-    <link href="/css/theme.min.css?1739184080" rel="stylesheet">
-    <link href="/css/format-html.min.css?1739184080" rel="stylesheet" id="R-format-style">
+    <meta itemprop="wordCount" content="158">
+    <title>Datentypen :: Comparing SQL Server with PostgreSQL in different ways</title>
+    <link href="/first-chapter/first-page/index.xml" rel="alternate" type="application/rss+xml" title="Datentypen :: Comparing SQL Server with PostgreSQL in different ways">
+    <link href="/css/fontawesome-all.min.css?1739201787" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1739201787" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1739201787" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1739201787" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1739201787" rel="stylesheet">
+    <link href="/css/theme.css?1739201787" rel="stylesheet">
+    <link href="/css/format-html.css?1739201787" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       window.relearn.relBasePath='..\/..';
       window.relearn.relBaseUri='..\/..';
-      window.relearn.absBaseUri='https:\/\/example.org';
-      window.relearn.min = `.min`;
+      window.relearn.absBaseUri='http:\/\/localhost:1313';
+      window.relearn.min = ``;
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
       // variant stuff
@@ -87,7 +87,21 @@
             </div>
             <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
               <div class="topbar-content">
-                <div class="topbar-content-wrapper"> 
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#ganzzahlige-datentypen">Ganzzahlige Datentypen</a>
+      <ul>
+        <li><a href="#dezimal-datentypen">Dezimal-Datentypen</a></li>
+        <li><a href="#gleitkomma-datentypen">Gleitkomma-Datentypen</a></li>
+        <li><a href="#money-datentypen">Money-Datentypen</a></li>
+        <li><a href="#bit-datentypen">BIT-Datentypen</a></li>
+        <li><a href="#guid-datentypen">GUID-Datentypen</a></li>
+        <li><a href="#zeichenketten-datentypen">Zeichenketten-Datentypen</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
                 </div>
               </div>
             </div>
@@ -95,12 +109,12 @@
           <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li
             itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/index.html"><span itemprop="name">Comparing SQL Server with PostgreSQL in different ways</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li
             itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="/first-chapter/index.html"><span itemprop="name">Comparisons</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li
-            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Data Types</span><meta itemprop="position" content="3"></li>
+            itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Datentypen</span><meta itemprop="position" content="3"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
             <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/first-chapter/index.html" title="Comparisons (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><span class="topbar-control"><i class="fa-fw fas fa-chevron-right"></i></span>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/first-chapter/functions/index.html" title="Funktionen (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -120,9 +134,157 @@
   <header class="headline">
   </header>
 
-<h1 id="data-types">Data Types</h1>
+<h1 id="datentypen">Datentypen</h1>
 
-<p>Comparions of data type</p>
+<h2 id="ganzzahlige-datentypen">Ganzzahlige Datentypen</h2>
+<table>
+  <thead>
+      <tr>
+          <th>SQL Server</th>
+          <th>PostgreSQL</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>TINYINT</strong> (0 bis 255, 1 Byte)</td>
+          <td><strong>kein Pendant</strong></td>
+      </tr>
+      <tr>
+          <td><strong>SMALLINT</strong> (-32.768 bis 32.767, 2 Byte)</td>
+          <td>smallint</td>
+      </tr>
+      <tr>
+          <td><strong>INT</strong> (-2.147.483.648 bis 2.147.483.647, 4 Byte)</td>
+          <td>integer</td>
+      </tr>
+      <tr>
+          <td><strong>BIGINT</strong> (-9.223.372.036.854.775.808 bis 9.223.372.036.854.775.807, 8 Byte)</td>
+          <td>bigint</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="dezimal-datentypen">Dezimal-Datentypen</h3>
+<table>
+  <thead>
+      <tr>
+          <th>SQL Server</th>
+          <th>PostgreSQL</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>DECIMAL</strong> (-10^38 + 1 bis zu 10^38 - 1)</td>
+          <td>decimal</td>
+      </tr>
+      <tr>
+          <td><strong>NUMERIC</strong> (-10^38 + 1 bis zu 10^38 - 1)</td>
+          <td>numeric</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="gleitkomma-datentypen">Gleitkomma-Datentypen</h3>
+<table>
+  <thead>
+      <tr>
+          <th>SQL Server</th>
+          <th>PostgreSQL</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>FLOAT</strong></td>
+          <td>double precision</td>
+      </tr>
+      <tr>
+          <td><strong>REAL</strong></td>
+          <td>real</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="money-datentypen">Money-Datentypen</h3>
+<table>
+  <thead>
+      <tr>
+          <th>SQL Server</th>
+          <th>PostgreSQL</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>SMALLMONEY</strong> (-214.748,3648 bis 214.748,3647, 4 Bytes)</td>
+          <td><strong>kein Pendant</strong></td>
+      </tr>
+      <tr>
+          <td><strong>MONEY</strong> (-922.337.203.685.477,5808 bis 922.337.203.685.477,5807, 8 Bytes)</td>
+          <td>money</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="bit-datentypen">BIT-Datentypen</h3>
+<table>
+  <thead>
+      <tr>
+          <th>SQL Server</th>
+          <th>PostgreSQL</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>BIT</strong> (1 Byte)</td>
+          <td>boolean</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="guid-datentypen">GUID-Datentypen</h3>
+<table>
+  <thead>
+      <tr>
+          <th>SQL Server</th>
+          <th>PostgreSQL</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>uniqueidentifier</strong> (16 Bytes)</td>
+          <td>uuid</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="zeichenketten-datentypen">Zeichenketten-Datentypen</h3>
+<table>
+  <thead>
+      <tr>
+          <th>SQL Server</th>
+          <th>PostgreSQL</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>char(n)</strong> (n muss zwischen 1 und 8000 liegen)</td>
+          <td>character(n), char(n)</td>
+      </tr>
+      <tr>
+          <td><strong>varchar(n)</strong> (n muss zwischen 1 und 8000 liegen)</td>
+          <td>character varying(n), char varying(n)</td>
+      </tr>
+      <tr>
+          <td><strong>varchar(max)</strong> (2GB)</td>
+          <td>text</td>
+      </tr>
+      <tr>
+          <td><strong>nchar(n)</strong> (n muss zwischen 1 und 4000 liegen, UTF-16)</td>
+          <td>character(n), char(n)</td>
+      </tr>
+      <tr>
+          <td><strong>nvarchar(n)</strong> (n muss zwischen 1 und 4000 liegen, UTF-16)</td>
+          <td>character varying(n), char varying(n)</td>
+      </tr>
+      <tr>
+          <td><strong>nvarchar(max)</strong> (2GB)</td>
+          <td>text</td>
+      </tr>
+  </tbody>
+</table>
 
   <footer class="footline">
   </footer>
@@ -139,7 +301,7 @@
           </a>
         </div>
         <script>
-          window.index_js_url="/searchindex.en.js?1739184080";
+          window.index_js_url="/searchindex.en.js?1739201787";
         </script>
         <search><form action="/search/index.html" method="get">
           <div class="searchbox default-animation">
@@ -152,12 +314,12 @@
         <script>
           var contentLangs=['de'];
         </script>
-        <script src="/js/auto-complete.js?1739184080" defer></script>
-        <script src="/js/lunr/lunr.min.js?1739184080" defer></script>
-        <script src="/js/lunr/lunr.stemmer.support.min.js?1739184080" defer></script>
-        <script src="/js/lunr/lunr.multi.min.js?1739184080" defer></script>
-        <script src="/js/lunr/lunr.de.min.js?1739184080" defer></script>
-        <script src="/js/search.js?1739184080" defer></script>
+        <script src="/js/auto-complete.js?1739201787" defer></script>
+        <script src="/js/lunr/lunr.min.js?1739201787" defer></script>
+        <script src="/js/lunr/lunr.stemmer.support.min.js?1739201787" defer></script>
+        <script src="/js/lunr/lunr.multi.min.js?1739201787" defer></script>
+        <script src="/js/lunr/lunr.de.min.js?1739201787" defer></script>
+        <script src="/js/search.js?1739201787" defer></script>
       </div>
       <div id="R-homelinks" class="default-animation homelinks">
         <ul>
@@ -169,7 +331,8 @@
         <div id="R-shortcutmenu-home" class="R-sidebarmenu">
           <ul class="enlarge morespace collapsible-menu">
             <li class="parent " data-nav-id="/first-chapter/index.html"><a class="padding" href="/first-chapter/index.html">Comparisons</a><ul id="R-subsections-4144213242269b2539c77181fbd348b1" class="collapsible-menu">
-            <li class="active " data-nav-id="/first-chapter/first-page/index.html"><a class="padding" href="/first-chapter/first-page/index.html">Data Types</a></li></ul></li>
+            <li class="active " data-nav-id="/first-chapter/first-page/index.html"><a class="padding" href="/first-chapter/first-page/index.html">Datentypen</a></li>
+            <li class="" data-nav-id="/first-chapter/functions/index.html"><a class="padding" href="/first-chapter/functions/index.html">Funktionen</a></li></ul></li>
           </ul>
         </div>
     
@@ -223,8 +386,8 @@
         </div>
       </div>
     </aside>
-    <script src="/js/clipboard.min.js?1739184080" defer></script>
-    <script src="/js/perfect-scrollbar.min.js?1739184080" defer></script>
-    <script src="/js/theme.js?1739184080" defer></script>
+    <script src="/js/clipboard.min.js?1739201787" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1739201787" defer></script>
+    <script src="/js/theme.js?1739201787" defer></script>
   </body>
 </html>

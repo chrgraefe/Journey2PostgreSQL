@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zeichenketten</title>
+    <link>https://example.org/vergleiche/datatypes/zeichenketten/index.html</link>
+    <description>Zeichenketten-Datentypen SQL Server PostgreSQL char(n) (n muss zwischen 1 und 8000 liegen) character(n), char(n) varchar(n) (n muss zwischen 1 und 8000 liegen) character varying(n), char varying(n) varchar(max) (2GB) text nchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character(n), char(n) nvarchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character varying(n), char varying(n) nvarchar(max) (2GB) text</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://example.org/vergleiche/datatypes/zeichenketten/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

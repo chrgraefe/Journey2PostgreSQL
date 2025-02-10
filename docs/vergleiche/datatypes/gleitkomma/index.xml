@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gleitkomma</title>
+    <link>https://example.org/vergleiche/datatypes/gleitkomma/index.html</link>
+    <description>Gleitkomma-Datentypen SQL Server PostgreSQL FLOAT double precision REAL real</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <atom:link href="https://example.org/vergleiche/datatypes/gleitkomma/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

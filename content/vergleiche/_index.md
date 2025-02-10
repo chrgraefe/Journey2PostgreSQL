@@ -1,5 +1,5 @@
 +++
-title = "Comparisons"
+title = "Vergleiche"
 type = "chapter"
 weight = 1
 +++

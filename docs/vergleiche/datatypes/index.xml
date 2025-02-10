@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Datentypen</title>
+    <link>https://example.org/vergleiche/datatypes/index.html</link>
+    <description></description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/vergleiche/datatypes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bit</title>
+      <link>https://example.org/vergleiche/datatypes/bit/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/vergleiche/datatypes/bit/index.html</guid>
+      <description>BIT-Datentypen SQL Server PostgreSQL BIT (1 Byte) boolean</description>
+    </item>
+    <item>
+      <title>Dezimal</title>
+      <link>https://example.org/vergleiche/datatypes/dezimal/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/vergleiche/datatypes/dezimal/index.html</guid>
+      <description>Dezimal-Datentypen SQL Server PostgreSQL DECIMAL (-10^38 + 1 bis zu 10^38 - 1) decimal NUMERIC (-10^38 + 1 bis zu 10^38 - 1) numeric</description>
+    </item>
+    <item>
+      <title>Ganzzahl</title>
+      <link>https://example.org/vergleiche/datatypes/ganzzahl/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/vergleiche/datatypes/ganzzahl/index.html</guid>
+      <description>Ganzzahlige Datentypen SQL Server PostgreSQL TINYINT (0 bis 255, 1 Byte) kein Pendant SMALLINT (-32.768 bis 32.767, 2 Byte) smallint INT (-2.147.483.648 bis 2.147.483.647, 4 Byte) integer BIGINT (-9.223.372.036.854.775.808 bis 9.223.372.036.854.775.807, 8 Byte) bigint</description>
+    </item>
+    <item>
+      <title>Gleitkomma</title>
+      <link>https://example.org/vergleiche/datatypes/gleitkomma/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/vergleiche/datatypes/gleitkomma/index.html</guid>
+      <description>Gleitkomma-Datentypen SQL Server PostgreSQL FLOAT double precision REAL real</description>
+    </item>
+    <item>
+      <title>Guid</title>
+      <link>https://example.org/vergleiche/datatypes/guid/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/vergleiche/datatypes/guid/index.html</guid>
+      <description>GUID-Datentypen SQL Server PostgreSQL uniqueidentifier (16 Bytes) uuid</description>
+    </item>
+    <item>
+      <title>Money</title>
+      <link>https://example.org/vergleiche/datatypes/money/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/vergleiche/datatypes/money/index.html</guid>
+      <description>Money-Datentypen SQL Server PostgreSQL SMALLMONEY (-214.748,3648 bis 214.748,3647, 4 Bytes) kein Pendant MONEY (-922.337.203.685.477,5808 bis 922.337.203.685.477,5807, 8 Bytes) money</description>
+    </item>
+    <item>
+      <title>Zeichenketten</title>
+      <link>https://example.org/vergleiche/datatypes/zeichenketten/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/vergleiche/datatypes/zeichenketten/index.html</guid>
+      <description>Zeichenketten-Datentypen SQL Server PostgreSQL char(n) (n muss zwischen 1 und 8000 liegen) character(n), char(n) varchar(n) (n muss zwischen 1 und 8000 liegen) character varying(n), char varying(n) varchar(max) (2GB) text nchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character(n), char(n) nvarchar(n) (n muss zwischen 1 und 4000 liegen, UTF-16) character varying(n), char varying(n) nvarchar(max) (2GB) text</description>
+    </item>
+  </channel>
+</rss>
